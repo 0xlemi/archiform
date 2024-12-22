@@ -1,0 +1,42 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# vcpkg
+vcpkg/
+vcpkg_installed/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+!CMakeLists.txt
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Debug files
+*.dSYM/ 

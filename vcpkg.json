@@ -1,0 +1,15 @@
+{
+  "name": "archiform",
+  "version": "0.1.0",
+  "builtin-baseline": "f06267da58f3c06b3a1aff9cbf5c2906e595ebc9",
+  "dependencies": [
+    {
+      "name": "magnum",
+      "features": ["sdl2application", "primitives", "meshtools", "gl", "trade", "shaders"]
+    },
+    {
+      "name": "imgui",
+      "features": ["metal-binding"]
+    }
+  ]
+}
